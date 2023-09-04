@@ -21,7 +21,7 @@ def honorRoll():
         
         if gpa >= 3.5:
             print(f"Congratulations, {fname} {lname} made the Dean's List!")
-        elif 3.25 < gpa < 3.5:
+        elif 3.25 =< gpa < 3.5:
             print(f"Congratulations, {fname} {lname} made the Honor Roll!")
         else:
             print(f"Keep working!{fname} {lname} You're almost there!")
